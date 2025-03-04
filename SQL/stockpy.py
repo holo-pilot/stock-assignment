@@ -2,7 +2,7 @@ import sqlite3
 
 # Define connection and cursor
 
-connection = sqlite3.connect('stock.db')
+connection = sqlite3.connect('SQL/stock.db')
 
 cursor = connection.cursor()
 
