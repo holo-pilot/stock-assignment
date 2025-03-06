@@ -21,7 +21,7 @@ cursor.execute(command1)
 
 # Adding values
 
-cursor.execute("INSERT INTO inventory VALUES ( 1, 'tea', 20, '2025-05-05')")
+cursor.execute("INSERT INTO inventory VALUES ( 1, 'tea', 20, '2025-03-06')")
 
 cursor.execute("INSERT INTO inventory VALUES ( 2, 'coffee', 40, '2025-01-09')")
 
