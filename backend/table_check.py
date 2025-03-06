@@ -16,3 +16,4 @@ cursor.execute("SELECT * FROM inventory WHERE expiry = current_date;")
 
 date_match = cursor.fetchall()
 print(date_match)
+connection.close
