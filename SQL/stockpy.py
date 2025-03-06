@@ -23,11 +23,11 @@ cursor.execute(command1)
 
 cursor.execute("INSERT INTO inventory VALUES ( 1, 'tea', 20, '2025-05-05')")
 
-cursor.execute("INSERT INTO inventory VALUES ( 2, 'coffee', 40, '2025-06-06')")
+cursor.execute("INSERT INTO inventory VALUES ( 2, 'coffee', 40, '2025-01-09')")
 
-cursor.execute("INSERT INTO inventory VALUES ( 3, 'coke', 35, '2025-06-07')")
+cursor.execute("INSERT INTO inventory VALUES ( 3, 'coke', 35, '2025-10-07')")
 
-cursor.execute("INSERT INTO inventory VALUES ( 4,'pepsi', 69, '2025-06-06')")
+cursor.execute("INSERT INTO inventory VALUES ( 4,'pepsi', 69, '2025-07-29')")
 
 
 # Commit the changes to the database to for it to show in the viewer
